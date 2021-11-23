@@ -61,7 +61,6 @@ table {
 body{
 	font-family: 'Poppins', sans-serif;
 	background: #1F2E35;
-	height: 6000px;
 }
 
 a{
@@ -464,6 +463,11 @@ a{
 	overflow: hidden;
 	padding-bottom: 40px;
 	border: 0;
+	transition: 0.7s;
+}
+
+.strategies .strategies-cards .card:hover{
+	opacity: 0.5;
 }
 
 .strategies .strategies-cards .card .date{
@@ -1017,6 +1021,12 @@ a{
 	/* section strategies */
 	.strategies{
 		margin-top: 100px;
+	}
+	.strategies h2{
+		text-align: center;
+	}
+	.strategies .strategies-descr{
+		text-align: center;
 	}
 	/* section review */
 	.review{

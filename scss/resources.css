@@ -517,6 +517,12 @@ a {
   border-radius: 8px;
   overflow: hidden;
   padding-bottom: 40px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.stories .stories-cards .card:hover {
+  opacity: 0.5;
 }
 
 .stories .stories-cards .card .date {

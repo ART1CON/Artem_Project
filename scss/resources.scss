@@ -229,6 +229,10 @@ $green:  #02897A;
 	      border-radius: 8px;
 	      overflow: hidden;
 	      padding-bottom: 40px;
+         transition: 0.7s;
+         &:hover{
+            opacity: 0.5;
+         }
          .date{
             @include font (16px, 28px, normal, #22343D);
 	         padding-left: 24px;
